@@ -17,6 +17,7 @@ h1 {
 section {
 
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -29,7 +30,7 @@ section {
 .half-width img {
 
 
-    width: 60%;
+    width: 50%;
 
 }
 
@@ -42,7 +43,10 @@ section {
     background-color: #AE4E58;
     color: white;
     padding: 10px 10px;
-    border-radius: 5%;
+    border-radius: 30%;
+    background-clip: content-box, padding-box;
+    border-style: dotted;
+
 }
 
 
@@ -53,3 +57,16 @@ section {
     background-size: 95%;
     background-repeat: no-repeat;
 }
+
+
+.section-2 {
+
+
+    background-image: url(images/dream-bg.png);
+    background-size: 5%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.section-2 img {}
